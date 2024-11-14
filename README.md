@@ -1,15 +1,15 @@
-##### DSC_PT08P2_Phase_2_Project_Grp_1_Final
+# DSC_PT08P2_Phase_2_Project_Grp_1_Final
 
 
-#### Project Overview
+# Project Overview
 
 
 
-#### Business Problem
+# Business Problem
 
 Our company recognizes the growing trend among major industry players in producing original video content and intends to establish a new movie studio to capitalize on this opportunity. However, we currently lack the necessary expertise and insights into filmmaking. To effectively guide the studio's development, we have been assigned the task of investigating the types of films that are currently excelling at the box office. The challenge lies in not only identifying these successful film trends but also converting this information into practical recommendations that the studio's leadership can use to make informed decisions about future film productions. Failure to do so may result in misguided investments and an inability to compete in the market.
 
-#### Business Objectives
+# Business Objectives
 
   * What are the trends in movie release dates and what impact do they have on revenue?
   * Is there a relationship between production budget and profitability and ROI of a movie? i.e Does a higher production budget automatically result to  a higher profitability and vice versa.
@@ -21,7 +21,7 @@ Our company recognizes the growing trend among major industry players in produci
   * Evaluate the if movie rating affect production costs.
   * Provide actionable insights for the new movie studio.
   
-#### Sources of Data 
+# Sources of Data 
 
 In the folder `zippedData` are movie datasets from:
 
@@ -37,7 +37,7 @@ Because it was collected from various locations, the different files have differ
 
 Note that the above diagram shows ONLY the IMDB data. You will need to look carefully at the features to figure out how the IMDB data relates to the other provided data files.
 
-#### Data
+# Data
 The data used for this project include:
   * [movie_gross]( )
   * [movie_budget]( )
@@ -45,7 +45,7 @@ The data used for this project include:
   * [im.db]( )
   
 
-#### Data Understanding
+# Data Understanding
 
 # The Libraries 
 The files are built-in and can only be accessed once they are imported into the library.
@@ -83,7 +83,7 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
   pd.read_sql("""SELECT name FROM sqlite_master WHERE type='table';""", conn)
 
 
-#### Description of data
+# Description of data
 * Movie_info  
    * All the ID column details are 1560 with none missing, datatypes are integer(1) and object(11)
    * The number of rows and columns are 1560 , 12 in number. 
@@ -107,7 +107,7 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
     * The minimum domestic gross value for the movies was 100 dollars , the maximum domestic gross value stood at 936.7 million dollars.
 
 
-#### Cleaning of the data 
+# Cleaning of the data 
 * Movie_info
     * Finding the sum of the missing values, calculating its percentage  and dropping columns with missing values above 50%.
     * Studio, box_office and currency columns have the highest number of missing values, all above 50% of the values.
@@ -134,13 +134,13 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
 
 * A merge between the clean Movie_info dataset with Movie_budget dataset
 
-#### Visualization(s)
+# Visualization(s)
 
       ****Three visualizations (the same visualizations presented in the slides and notebook)***
 
-#### Conclusion(s)
+# Conclusion(s)
           *** Summary of conclusions including three relevant findings***
 
 
-#### Recommendation(s)
+# Recommendation(s)
 
