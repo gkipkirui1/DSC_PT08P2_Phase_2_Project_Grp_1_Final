@@ -138,7 +138,7 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
 
 ### 1. Relationship between Domestic Gross and Foreign Gross
 
-![Domestic Gross vs Foreign Gross]("C:\Users\User\Desktop\Project Final\DSF_PT08P2_Phase_2_Project_Grp_1_Final\Image Visualizations\Scatter Domestic and Foreign Gross.png")
+![Domestic Gross vs Foreign Gross](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Scatter%20Domestic%20and%20Foreign%20Gross.png)
 
 ### 2. Scatter Plot with Regression Line of Domestic Gross and Worldwide Gross
 
