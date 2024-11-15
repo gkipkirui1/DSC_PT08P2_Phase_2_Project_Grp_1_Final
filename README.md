@@ -159,9 +159,9 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
 
 ![Multivariate Analysis of Production budget and Domestic Gross](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Multivariate%20Analysis%20of%20production%20budget%20and%20domestic%20gross.png)
 
-### 6. Analysis of Total Revenue by Movie Release Month
+### 6. Total Revenue and Production Budget by Movie Release Month
 
-![Revenue by Release Month](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Total%20Revenue%20by%20Release%20month.png)
+![Revenue by Release Month](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Total%20Revenue%20and%20Production%20Budget%20by%20Release%20month.png)
 
 ### 7. Analysis of Production Budget vs Profitability
 
