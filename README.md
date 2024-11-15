@@ -18,7 +18,7 @@
 
 # Project Overview
 
-This project will use exploratory data analysis to generate insights for the business stakeholder.
+This project will analyze film trends, including popular genres and budget strategies, to provide actionable insights for studio leadership. The ultimate goal is to guide strategic decisions and ensure effective resource allocation, positioning the studio for competitive success in the market.
 
 
 # Business Problem
