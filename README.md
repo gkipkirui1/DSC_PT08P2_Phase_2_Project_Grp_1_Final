@@ -1,4 +1,7 @@
-### MOVIE STUDIO DATA ANALYSIS ,INSIGHTS AND RECOMMENDATIONS
+
+## DSF_PT08P2_Phase_2_Project_Grp_1_Final
+
+## MOVIE STUDIO DATA ANALYSIS ,INSIGHTS AND RECOMMENDATIONS
 
 # Project Overview
 
@@ -182,7 +185,7 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
 
 
 
-# Conclusion(s)
+# Insight(s)
 
 # 1. Correlation Analysis
          
