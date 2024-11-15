@@ -185,7 +185,7 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
 
 
 
-# Conclusion(s)
+# Insight(s)
 
 # 1. Correlation Analysis
          
