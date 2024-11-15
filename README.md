@@ -1,8 +1,8 @@
-# DSC_PT08P2_Phase_2_Project_Grp_1_Final
-
+### MOVIE STUDIO DATA ANALYSIS ,INSIGHTS AND RECOMMENDATIONS
 
 # Project Overview
 
+This project will use exploratory data analysis to generate insights for the business stakeholder.
 
 
 # Business Problem
