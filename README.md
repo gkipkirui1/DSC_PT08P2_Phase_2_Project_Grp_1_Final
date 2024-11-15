@@ -1,8 +1,8 @@
-# DSC_PT08P2_Phase_2_Project_Grp_1_Final
-
+### MOVIE STUDIO DATA ANALYSIS ,INSIGHTS AND RECOMMENDATIONS
 
 # Project Overview
 
+This project will use exploratory data analysis to generate insights for the business stakeholder.
 
 
 # Business Problem
@@ -138,47 +138,47 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
 
 ### 1. Relationship between Domestic Gross and Foreign Gross
 
-![Domestic Gross vs Foreign Gross]("C:\Users\User\Desktop\Project Final\DSF_PT08P2_Phase_2_Project_Grp_1_Final\Image Visualizations\Scatter Domestic and Foreign Gross.png")
+![Domestic Gross vs Foreign Gross](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Scatter%20Domestic%20and%20Foreign%20Gross.png)
 
 ### 2. Scatter Plot with Regression Line of Domestic Gross and Worldwide Gross
 
-![image-2.png](attachment:image-2.png)
+![Domestic Gross vs Worldwide Gross](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Scatter%20plot%20regression%20line%20domestic%20gross%20and%20Worldwide%20gross.png)
 
 ### 3. Heatmap Showing Correlation of the Numerical variables
 
-![image-11.png](attachment:image-11.png)
+![Heatmap of Numerical Variables](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Heatmap%20for%20Runtime%20Production%20bdgt%20Domestic%20Foreign%20Gross.png)
 
 ### 4.  Bivariate Analysis of Total Revenue
 
-![image-3.png](attachment:image-3.png)
+![Bivariate Analysis of Total Revenue](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Heatmap%20for%20Runtime%20Production%20bdgt%20Domestic%20Foreign%20Gross.png)
 
 ### 5. Multivariate Analysis of Production budget and Domestic Gross
 
-![image-4.png](attachment:image-4.png)
+![Multivariate Analysis of Production budget and Domestic Gross](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Multivariate%20Analysis%20of%20production%20budget%20and%20domestic%20gross.png)
 
 ### 6. Analysis of Total Revenue by Movie Release Month
 
-![image-5.png](attachment:image-5.png)
+![Revenue by Release Month](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Total%20Revenue%20by%20Release%20month.png)
 
 ### 7. Analysis of Production Budget vs Profitability
 
-![image-6.png](attachment:image-6.png)
+![Production Budget vs Profitability](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/production%20budget%20vs%20profitability.png)
 
 ### 8. Average Movie Domestic Revenue by Genre
 
-![image-7.png](attachment:image-7.png)
+![Domestic Revenue by Genre](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Average%20Domestic%20Gross%20Revenue%20by%20Genre.png)
 
 ### 9. Analysis of Movie Rating vs Domestic Gross
 
-![image-8.png](attachment:image-8.png)
+![Movie Rating vs Domestic Gross](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Movie%20rating%20vs%20Domestic%20Gross.png)
 
 ### 10. Analysis of Movie Rating vs Worldwide Gross
 
-![image-9.png](attachment:image-9.png)
+![Movie Rating vs Worldwide Gross](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Movie%20Rating%20vs%20Worldwide%20Gross.png)
 
 ### 11. Analysis of Movie Runtime and Movie Ratings
 
-![image-10.png](attachment:image-10.png)
+![Movie Runtime vs Movie Ratings](https://github.com/gkipkirui1/DSF_PT08P2_Phase_2_Project_Grp_1_Final/blob/main/Image%20Visualizations/Runtime%20vs%20Rating.png)
 
 
 
