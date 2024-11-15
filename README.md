@@ -1,7 +1,20 @@
 
-## DSF_PT08P2_Phase_2_Project_Grp_1_Final
+* Project owner: Group 1 DSF_PT08P2
+* Student Names
+ 1. Gilbert Cheruiyot - Group Leader
+ 2. Mercy Ayub
+ 3. James Muthee
+ 4. Edwin George
+ 5. Reagan Adajo
+ 6. Angela Mwanzia
+ 7. Millicent Cheptoi
+ 8. Daniel Muigai
+    
+* Student Pace: part time
+* Instructor name: Samuel Karu & Daniel Ekale
 
-## MOVIE STUDIO DATA ANALYSIS ,INSIGHTS AND RECOMMENDATIONS
+
+## MOVIE STUDIO DATA ANALYSIS,INSIGHTS AND RECOMMENDATIONS
 
 # Project Overview
 
@@ -54,20 +67,20 @@ The data used for this project include:
 The files are built-in and can only be accessed once they are imported into the library.
 The libraries used in the project are listed below:
 
-import pandas as pd
-import numpy as np
-import sqlite3
-import seaborn as sns
-import matplotlib.pyplot as plt
-import matplotlib_inline
-import matplotlib.image as mpimg
-import statsmodels.api as sm
-import zipfile
-import os
-from scipy import stats
-from scipy.stats import pearsonr, ttest_ind
-from statsmodels.stats.diagnostic import linear_rainbow
-sns.set_style()
+* import pandas as pd
+* import numpy as np
+* import sqlite3
+* import seaborn as sns
+* import matplotlib.pyplot as plt
+* import matplotlib_inline
+* import matplotlib.image as mpimg
+* import statsmodels.api as sm
+* import zipfile
+* import os
+* from scipy import stats
+* from scipy.stats import pearsonr, ttest_ind
+* from statsmodels.stats.diagnostic import linear_rainbow
+* sns.set_style()
 
 # Loading of the data
 The data was loaded in two ways: from CSV files and from a database. The CSV files were located in the unzipped directory, where ./Data/dsc-phase-2-project-v3-main.zip was extracted. Within this directory, the zippedData folder contained various datasets. Additionally, data was loaded directly from the database.
@@ -185,14 +198,14 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
 
 
 
-# Insight(s)
+# Conclusions
 
-# 1. Correlation Analysis
+# 1. Insights from Correlation Analysis
          
 * Correlation between the foreign gross and domestic gross had a strong positive. This implies that an increase in domestic gross could also be reflected with an increase in foreign gross.
 
 
-* Domestic gross and the year have a weak correlation, showing a weak relationship. Equally foreign gross and the year have a weak relationship. For predictive modelling, the positive correlation between the domestic gross and foreign gross will be an important relationship to consider.
+* Domestic gross and the year have a weak correlation. Equally foreign gross and the year have a weak relationship. For predictive modelling, the positive correlation between the domestic gross and foreign gross will be an important relationship to consider. 
 
 
 * Production budget has a positive correlation with both domestic gross and worldwide gross, with the later being stronger at 0.7392. This relationship implies that production budgets of movies have a relatively strong and positive relationship with both domestic and gross earning.
@@ -211,7 +224,7 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
 
 *  There is a moderate positive correlation between production budget and profitability, but a very weak negative correlation between production budget and ROI.
 
-# 2. Genre Revenue Trends in Domestic and Worldwide Markets
+# 2. Insights on Genre Revenue Trends in Domestic and Worldwide Markets
 
 * Musical and Performing Arts consistently outperforms other genres in both domestic and worldwide gross revenue.
 
@@ -224,7 +237,7 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
 
 * Certain genres, such as Drama (orange) and Science Fiction and Fantasy (green), are more likely to achieve higher total revenue and profit, as these points appear more frequently among the higher values
 
-# 3. Production Budget and Genre Analysis
+# 3. Insights from Production Budget and Genre Analysis
 
 *  Genres such as Action and Adventure and Science Fiction and Fantasy are associated with both high production budgets
 
@@ -248,31 +261,28 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
 
 
 
-# Recommendation(s)
+# Recommendations
+
+1.  We are recommending to the company to prioritize releasing more movies during the months of June, July and December. December is the most profitable month and therefore aiming at this timeframe could maximize on box office revenue.
 
 
-* We are recommending to the company to prioritize releasing more movies during the months of June, July and December. December is the most profitable month and therefore aiming at this timeframe could maximize on box office revenue.
+2.  We recommend to the company to utilize lower budget or experimental films in months like January and September which have lower revenue to maintain a consistent presence.
 
 
-* We recommend to the company to utilize lower budget or experimental films in months like January and September which have lower revenue to maintain a consistent presence.
+3.  We also recommend to the company to increase marketing efforts leading up to and during January and September to maximize opening-weekend success and overall revenue.
 
 
-* We also recommend to the company to increase marketing efforts leading up to and during January and September to maximize opening-weekend success and overall revenue.
+4.  Release High-Potential Films in November-December as it shows strong performance in revenue. We would recommend to the company to release family-oriented films and holiday-themed movies during this timeframe.
+
+5.  We recommend the company diversify its film portfolio by including more investments in lower-budget projects to enhance overall profitability and mitigate financial risk. Allocating a portion of funds to smaller, strategically selected productions that offer high returns relative to their cost will support this goal.
+
+6.  We recommend the company implement stricter budget controls and optimize resource allocation to focus spending on elements that enhance the film's appeal without unnecessarily inflating costs.
 
 
-* Release High-Potential Films in November-December as it shows strong performance in revenue. We would recommend to the company to release family-oriented films and holiday-themed movies during this timeframe.
+7.  We recommend the company develop tailored marketing campaigns for lower-budget films, utilizing cost-effective promotional strategies to enhance revenue potential.
 
 
-* The notable difference in ROI between high-budget and low-budget movies, where lower-budget films show a higher average ROI, indicates that investing in such films can be more profitable. Therefore, I recommend the company diversify its film portfolio by including more investments in lower-budget projects to enhance overall profitability and mitigate financial risk. Allocating a portion of funds to smaller, strategically selected productions that offer high returns relative to their cost will support this goal.
+8.  We recommend to the company to consider producing shorter films for wider audience appeal while also investing in select, high-quality longer films that can captivate audiences and drive engagement.
 
 
-* There is a weak negative correlation between production budget and ROI, suggesting that increasing the budget does not necessarily lead to higher returns. Higher spending on production may not result in proportional profitability gains. Therefore, I recommend the company implement stricter budget controls and optimize resource allocation to focus spending on elements that enhance the film's appeal without unnecessarily inflating costs.
-
-
-* Low-budget films, though smaller in scale, can achieve high ROIs when marketed effectively to their target audience. The notable ROI of low-budget movies underscores the opportunity to maximize profitability through strategic marketing. I recommend the company develop tailored marketing campaigns for lower-budget films, utilizing cost-effective promotional strategies to enhance revenue potential.
-
-
-* We recommend to the company to consider producing shorter films for wider audience appeal while also investing in select, high-quality longer films that can captivate audiences and drive engagement.
-
-
-* We recommend allocation of more resources to produce a mix of shorter, high-rating-friendly films and select longer, high-quality projects that will meet the expectations of more targeted audiences.
+9.  We recommend allocation of more resources to produce a mix of shorter, high-rating-friendly films and select longer, high-quality projects that will meet the expectations of more targeted audiences.
