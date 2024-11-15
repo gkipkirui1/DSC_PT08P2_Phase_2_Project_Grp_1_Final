@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DSC_PT08P2_Phase_2_Project_Grp_1_Final
 
 
@@ -31,31 +30,6 @@ In the folder `zippedData` are movie datasets from:
   * [Rotten Tomatoes](https://www.rottentomatoes.com/)
   * [TheMovieDB](https://www.themoviedb.org/)
   * [The Numbers](https://www.the-numbers.com/)
-=======
-## Overview
-## Project Overview
-
-For this project, we used exploratory data analysis to generate insights for the business stakeholder.
-
-## Business Understanding
-          ****Include stakeholder and key business questions***
-
-### Business Problem
-
-Our company now sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. We are charged with exploring what types of films are currently doing the best at the box office. We will then translate those findings into actionable insights that the head of your company's new movie studio can use to help decide what type of films to create.
-
-## Data Understanding and Analysis
-
-### The Source of data
-
-In the folder `zippedData` are movie datasets from:
-
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
->>>>>>> 8c6f16eec6e0044a4c4cf1d091b3e025fc0632a8
 
 Because it was collected from various locations, the different files have different formats. Some are compressed CSV (comma-separated values) or TSV (tab-separated values) files that can be opened using spreadsheet software or `pd.read_csv`, while the data from IMDB is located in a SQLite database.
 
@@ -63,7 +37,6 @@ Because it was collected from various locations, the different files have differ
 
 Note that the above diagram shows ONLY the IMDB data. You will need to look carefully at the features to figure out how the IMDB data relates to the other provided data files.
 
-<<<<<<< HEAD
 # Data
 The data used for this project include:
   * [movie_gross]( )
@@ -163,58 +136,140 @@ The data was loaded in two ways: from CSV files and from a database. The CSV fil
 
 # Visualization(s)
 
-      ****Three visualizations (the same visualizations presented in the slides and notebook)***
+### 1. Relationship between Domestic Gross and Foreign Gross
+
+![image.png](attachment:image.png)
+
+### 2. Scatter Plot with Regression Line of Domestic Gross and Worldwide Gross
+
+![image-2.png](attachment:image-2.png)
+
+### 3. Heatmap Showing Correlation of the Numerical variables
+
+![image-11.png](attachment:image-11.png)
+
+### 4.  Bivariate Analysis of Total Revenue
+
+![image-3.png](attachment:image-3.png)
+
+### 5. Multivariate Analysis of Production budget and Domestic Gross
+
+![image-4.png](attachment:image-4.png)
+
+### 6. Analysis of Total Revenue by Movie Release Month
+
+![image-5.png](attachment:image-5.png)
+
+### 7. Analysis of Production Budget vs Profitability
+
+![image-6.png](attachment:image-6.png)
+
+### 8. Average Movie Domestic Revenue by Genre
+
+![image-7.png](attachment:image-7.png)
+
+### 9. Analysis of Movie Rating vs Domestic Gross
+
+![image-8.png](attachment:image-8.png)
+
+### 10. Analysis of Movie Rating vs Worldwide Gross
+
+![image-9.png](attachment:image-9.png)
+
+### 11. Analysis of Movie Runtime and Movie Ratings
+
+![image-10.png](attachment:image-10.png)
+
+
 
 # Conclusion(s)
-          *** Summary of conclusions including three relevant findings***
+
+# 1. Correlation Analysis
+         
+* Correlation between the foreign gross and domestic gross had a strong positive. This implies that an increase in domestic gross could also be reflected with an increase in foreign gross.
+
+
+* Domestic gross and the year have a weak correlation, showing a weak relationship. Equally foreign gross and the year have a weak relationship. For predictive modelling, the positive correlation between the domestic gross and foreign gross will be an important relationship to consider.
+
+
+* Production budget has a positive correlation with both domestic gross and worldwide gross, with the later being stronger at 0.7392. This relationship implies that production budgets of movies have a relatively strong and positive relationship with both domestic and gross earning.
+
+
+* Runtime has a weak relationship with production budget, domestic and worldwide gross. The correlation between runtime and production budget was 0.0040. Equally, the correlation between runtime with both domestic and worldwide gross was negative at -0.000906 and -0.003864, depicting a very weak relationship hence the revenue values as a function of runtime cannot be modeled using a linear model.
+
+
+* Similarly, runtime as a function of movie production budget cannot be accurately modeled using a linear model because the p-value of 4.13e-09 obtained is significantly smaller than the usual significance level of 0.05.
+
+
+* There is a positive linear relationship between domestic gross and foreign gross  as well as domestic gross and worldwide gross. Hence a linear model is suitable to model domestic gross, foreign gross and worldwide gross revenues for the movies.
+
+
+* The higher production budgets generally correlate with higher total revenue, most movies fall within a lower budget and revenue range. 
+
+*  There is a moderate positive correlation between production budget and profitability, but a very weak negative correlation between production budget and ROI.
+
+# 2. Genre Revenue Trends in Domestic and Worldwide Markets
+
+* Musical and Performing Arts consistently outperforms other genres in both domestic and worldwide gross revenue.
+
+
+* Horror and Science Fiction and Fantasy also show strong performance in both domestic and worldwide markets.
+
+
+* Classics and Documentary have a higher average domestic gross compared to their worldwide performance.
+
+
+* Certain genres, such as Drama (orange) and Science Fiction and Fantasy (green), are more likely to achieve higher total revenue and profit, as these points appear more frequently among the higher values
+
+# 3. Production Budget and Genre Analysis
+
+*  Genres such as Action and Adventure and Science Fiction and Fantasy are associated with both high production budgets
+
+
+*  In contrast, genres like Documentary and Special Interest tend to have smaller budgets and lower domestic revenue
+
+
+*  Most movies have relatively low production budgets and domestic grosses, with only a few movies achieving very high values in either category.
+
+
+
+# 4. Insights on Movie Ratings
+
+* High-rated movies(with ratings >=8) tend to be slightly shorter on average, but they're actually more likely to be over 2 hours long with a percentage of 9.9% compared to 7.9% for low rated movies (with ratings < 5)
+
+
+* The standard deviation of High rated movies of 39.04 is significant. The minimum movie runtime was 4 minutes long with the maximum at 1440. The 1440 minutes suggests existence of outliers in the dataset since the average average runtime for high rated movies was 88.62 minutes.
+
+
+* The standard deviation of low rated movies of 19.04 is significant, implying big variations in the run time. The minimum movie runtime was 4 minutes long with the maximum at 480. The 480 minutes suggests existence of outliers in the dataset. The average runtime for low rated movies was 92.71 minutes.
+
 
 
 # Recommendation(s)
 
-=======
-### Description of data
-          ****Three visualizations (the same visualizations presented in the slides and notebook)***
 
-### Key Points
+* We are recommending to the company to prioritize releasing more movies during the months of June, July and December. December is the most profitable month and therefore aiming at this timeframe could maximize on box office revenue.
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business should take.
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of the new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+* We recommend to the company to utilize lower budget or experimental films in months like January and September which have lower revenue to maintain a consistent presence.
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
 
-## Deliverables
+* We also recommend to the company to increase marketing efforts leading up to and during January and September to maximize opening-weekend success and overall revenue.
 
-There are three deliverables for this project:
 
-* A **non-technical presentation**
-* A **Jupyter Notebook**
-* A **GitHub repository**
+* Release High-Potential Films in November-December as it shows strong performance in revenue. We would recommend to the company to release family-oriented films and holiday-themed movies during this timeframe.
 
-### Non-Technical Presentation
 
-The non-technical presentation is a slide deck presenting your analysis to business stakeholders.
+* The notable difference in ROI between high-budget and low-budget movies, where lower-budget films show a higher average ROI, indicates that investing in such films can be more profitable. Therefore, I recommend the company diversify its film portfolio by including more investments in lower-budget projects to enhance overall profitability and mitigate financial risk. Allocating a portion of funds to smaller, strategically selected productions that offer high returns relative to their cost will support this goal.
 
-* ***Non-technical*** does not mean that you should avoid mentioning the technologies or techniques that you used, it means that you should explain any mentions of these technologies and avoid assuming that your audience is already familiar with them.
-* ***Business stakeholders*** means that the audience for your presentation is the company, not the class or teacher. Do not assume that they are already familiar with the specific business problem.
 
-The presentation describes the project ***goals, data, methods, and results***. It has included at least ***three visualizations*** which correspond to ***three business recommendations***.
+* There is a weak negative correlation between production budget and ROI, suggesting that increasing the budget does not necessarily lead to higher returns. Higher spending on production may not result in proportional profitability gains. Therefore, I recommend the company implement stricter budget controls and optimize resource allocation to focus spending on elements that enhance the film's appeal without unnecessarily inflating costs.
 
-We have used the following:
 
-1. Beginning
-    * Overview
-    * Business Understanding
-2. Middle
-    * Data Understanding
-    * Data Analysis
-3. End
-    * Recommendations
-    * Next Steps
-    * Thank You
-       * This slide should include a prompt for questions as well as your contact information (name and LinkedIn profile)
+* Low-budget films, though smaller in scale, can achieve high ROIs when marketed effectively to their target audience. The notable ROI of low-budget movies underscores the opportunity to maximize profitability through strategic marketing. I recommend the company develop tailored marketing campaigns for lower-budget films, utilizing cost-effective promotional strategies to enhance revenue potential.
 
-   ## Conclusion
-          *** Summary of conclusions including three relevant findings***
 
->>>>>>> 8c6f16eec6e0044a4c4cf1d091b3e025fc0632a8
+* We recommend to the company to consider producing shorter films for wider audience appeal while also investing in select, high-quality longer films that can captivate audiences and drive engagement.
+
+
+* We recommend allocation of more resources to produce a mix of shorter, high-rating-friendly films and select longer, high-quality projects that will meet the expectations of more targeted audiences.
